@@ -10,7 +10,7 @@ export const Contact = () => {
     {
       name: data.email,
       icon: Mail,
-      href: `mailto:${data.email}`,
+      href: `https://mail.google.com/mail/?view=cm&fs=1&to=${data.email}`,
     },
     { name: "caffeinjunkie", icon: IcGithub, href: data.github },
     { name: "Satrio Adi Prakoso", icon: IcLinkedin, href: data.linkedin },
