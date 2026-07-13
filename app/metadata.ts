@@ -10,6 +10,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `${title}`,
     description: `${description}`,
+    verification: {
+      google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_ID || "",
+    },
     alternates: {
       canonical: canonicalUrl,
     },
