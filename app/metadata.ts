@@ -19,6 +19,10 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       url: canonicalUrl,
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
     twitter: {
       title: `${title}`,
       description: `${description}`,
