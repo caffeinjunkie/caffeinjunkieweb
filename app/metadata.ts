@@ -5,7 +5,7 @@ export async function generateMetadata(): Promise<Metadata> {
     "Satrio Adi Prakoso | Frontend Engineer | High-Performance Web & SEO";
   const description =
     "Frontend engineer specializing in Next.js, TypeScript, and web performance. I build scalable, SEO-friendly web applications that drive user acquisition and retention.";
-  const canonicalUrl = "https://caffeinjunkie.com";
+  const canonicalUrl = "https://caffeinjunkieweb.vercel.app";
 
   return {
     title: `${title}`,
