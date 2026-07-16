@@ -59,7 +59,7 @@ export const data: CVData = {
   experience: [
     {
       title: "Frontend Developer",
-      company: "PT Ajaib Teknologi Indonesia",
+      company: "Ajaib",
       location: "Jakarta, Indonesia",
       period: "Sep 2025 – Present",
       achievements: [
@@ -82,7 +82,7 @@ export const data: CVData = {
     },
     {
       title: "Frontend Developer",
-      company: "Codebay Solutions Sl.",
+      company: "Lodgify",
       location: "Barcelona, Spain",
       period: "Mar 2023 – Jun 2024",
       achievements: [
